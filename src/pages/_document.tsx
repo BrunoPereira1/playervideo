@@ -1,6 +1,7 @@
+/* eslint-disable @next/next/no-page-custom-font */
 import Document, { Head, Html, Main, NextScript } from "next/document";
 
-export class MyDocument extends Document {
+export default class MyDocument extends Document {
   reder() {
     return (
       <Html>
